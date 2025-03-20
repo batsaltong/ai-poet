@@ -21,7 +21,7 @@ jujae = st.text_input("주제를 입력해주세요.")
 
 prompt = f"{jujae}를 주제로 시를 써줄래, 윤동주 느낌으로"
 
-#출력 드가자!!!!!
+#출력 
 if jujae:
     try:
         response = chat_model.invoke(prompt)
