@@ -6,6 +6,8 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 
 #환경 변수 로드
+load_dotenv()
+api_key = os.getenv("OPENAI_API_KEY")
 
 #Openai 모델 설정
 chat_model = ChatOpenAI(api_key=api_key)
