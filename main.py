@@ -14,7 +14,7 @@ chat_model = ChatOpenAI(api_key=api_key)
 
 #streamlit UI 구성
 st.title("AI시 생성기")
-st.write("주제를 입력하면 AI가 맛있는 시를 호로록!")
+st.write("주제를 입력하면 AI가 시를 생성해줍니다.")
 
 #사용자 입력 받기
 jujae = st.text_input("주제를 입력해주세요.")
